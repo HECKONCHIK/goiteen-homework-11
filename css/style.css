@@ -133,8 +133,8 @@ html {
     .contact-list .nav-contact:hover,
     .contact-icon:focus,
     .contact-icon:hover {
-        color: var(--accent-color);
-        fill: var(--accent-color);
+        color: var(--acent-color);
+        fill: var(--acent-color);
     }
     .list-item {
         margin-right: 54px;
