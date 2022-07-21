@@ -67,39 +67,62 @@
                     <button type="button" class="modal-button" data-modal-close></button>
                     <!-- Форма модального вікна -->
                     <form class="form" autocomplete="on">
-<br>
-                        <label for="user-name">Ім'я</label>
-                        <input 
-                            class="form-field"
-                            type="text" 
-                            name="user-name" 
-                            id="user-name" 
-                            autofocus>
-<br>
-                        <label for="user-tel">Телефон</label>
-                        <input 
-                            class="form-field" 
-                            type="tel" 
-                            name="user-tel" 
-                            id="user-tel">
-<br>
-                        <label for="user-mail">Пошта</label>
-                        <input  
-                            class="form-field" 
-                            type="email" 
-                            name="user-mail" 
-                            id="user-mail" 
-                            autocomplete="off">
-<br>
-                        <label for="comments">Коментар</label>
-                        <textarea class="textarea" name="comments" id="comments" cols="30" rows="10" placeholder="Введіть коментар"></textarea>
-
-                        <label class="field-label">
-                            <input type="checkbox" name="checkbox" value="checkbox">
-                        </label>
-                        Погоджуюсь з розсилкою і приймаю <a href="./" >Умови договору</a> 
-
-                        <button type="submit">Надіслати</button>
+                        <h3 class="title">Залиште свої дані, ми Вам зателефонуємо</h3>
+                        <ul class="fields">
+                            <li class="field">
+                                <label for="user-name">Ім'я</label>
+                                <input 
+                                class="form-field" 
+                                type="text" 
+                                name="user-name" 
+                                id="user-name" 
+                                autofocus>
+                                <svg class="form-icon" widht="18" height="18">
+                                    <use href="./img/icons/person-black.svg"></use>
+                                </svg>
+                            </li>
+                            <li class="field">
+                                <label for="user-tel">Телефон</label>
+                                <input 
+                                class="form-field" 
+                                type="tel" 
+                                name="user-tel" 
+                                id="user-tel">
+                                <svg class="form-icon" widht="18" height="18">
+                                    <use href="./img/icons/phone-black.svg"></use>
+                                </svg>
+                            </li>
+                            <li class="field">
+                                <label for="user-mail">Пошта</label>
+                                <input 
+                                class="form-field" 
+                                type="email" 
+                                name="user-mail" 
+                                id="user-mail" 
+                                autocomplete="off">
+                                <svg class="form-icon" widht="18" height="18">
+                                    <use href="./img/icons/email-black.svg"></use>
+                                </svg>
+                            </li>
+                            <li class="field">
+                                <label for="comments">Коментар</label>
+                                <textarea 
+                                class="textarea" 
+                                name="comments" 
+                                id="comments" 
+                                cols="30" 
+                                rows="10" 
+                                placeholder="Введіть коментар"></textarea>
+                            </li>
+                        </ul>
+                        <div class="checkbox">
+                            <label class="field-label">
+                                <input type="checkbox" name="checkbox" value="checkbox">
+                            </label>
+                            Погоджуюсь з розсилкою і приймаю
+                            <a href="./">Умови договору</a>
+                        </div>
+                        <button type="submit" class="hero-button btn">Надіслати</button>
                     </form>
                 </div>
             </div>
