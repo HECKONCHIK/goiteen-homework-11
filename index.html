@@ -66,7 +66,7 @@
                 <div class="modal">
                     <button type="button" class="modal-button" data-modal-close></button>
                     <!-- Форма модального вікна -->
-                    <form class="form" autocomplete="on">
+                    <form class="form js-speaker-form" autocomplete="on">
                         <h3 class="title">Залиште свої дані, ми Вам зателефонуємо</h3>
                         <ul class="fields">
                             <li class="field">
@@ -78,7 +78,7 @@
                                 id="user-name" 
                                 autofocus>
                                 <svg class="form-icon" widht="18" height="18">
-                                    <use href="./img/icons/person-black.svg"></use>
+                                    <use href="./img/icons/symbol-defs.svg#icon-person-black"></use>
                                 </svg>
                             </li>
                             <li class="field">
@@ -89,7 +89,7 @@
                                 name="user-tel" 
                                 id="user-tel">
                                 <svg class="form-icon" widht="18" height="18">
-                                    <use href="./img/icons/phone-black.svg"></use>
+                                    <use href="./img/icons/symbol-defs.svg#icon-phone-black"></use>
                                 </svg>
                             </li>
                             <li class="field">
@@ -101,7 +101,7 @@
                                 id="user-mail" 
                                 autocomplete="off">
                                 <svg class="form-icon" widht="18" height="18">
-                                    <use href="./img/icons/email-black.svg"></use>
+                                    <use href="./img/icons/symbol-defs.svg#icon-email-black"></use>
                                 </svg>
                             </li>
                             <li class="field">
@@ -456,6 +456,7 @@
         </div>
     </div>
 </footer>
-<script src="./js/modal.js"></script>
+<script src="./js/modal.js" type="module"></script>
+<script src="./js/form.js" type="module"></script>
 </body>
 </html>
